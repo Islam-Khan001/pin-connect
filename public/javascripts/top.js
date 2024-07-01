@@ -9,9 +9,19 @@ const loginDisplay = document.getElementById("mainlogin-container");
 const signinDisplay = document.getElementById("mainsignin-container");
 const loginForm = document.getElementById("login-container");
 const signinForm = document.getElementById("signin-container");
+const loginGreet = document.getElementById("login-greet");
 const gotoLogin = document.querySelector("#g-signin a");
 const gotoSignin = document.querySelector("#g-login a");
 // const signupDisplay = document.getElementById()
+
+
+// function notAuthenticated() {
+
+//   loginDisplay.style.display = "flex";
+//   signinDisplay.style.display = "none";
+//   loginGreet.textContent = "Login to See more";
+// }
+
 
 
 document.getElementById('signinForm').addEventListener('submit', async function(event) {
@@ -84,6 +94,8 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     console.error('Error:', error);
   }
 });
+
+
 
 
 // console.log(a1)
@@ -344,3 +356,10 @@ async function applyEffect() {
     // applyEffect();
 }
 applyEffect();
+
+
+
+
+
+
+
