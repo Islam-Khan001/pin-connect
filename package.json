@@ -1,0 +1,25 @@
+{
+  "name": "pin-connect",
+  "version": "0.0.1",
+  "private": true,
+  "main": "routes/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node routes/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.3",
+    "http-errors": "~1.6.3",
+    "mongoose": "^8.0.2",
+    "morgan": "~1.9.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
